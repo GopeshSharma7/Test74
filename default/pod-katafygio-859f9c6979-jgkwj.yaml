@@ -124,11 +124,11 @@ status:
     status: "True"
     type: Initialized
   - lastProbeTime: null
-    lastTransitionTime: "2024-01-31T18:31:24Z"
+    lastTransitionTime: "2024-01-31T18:42:10Z"
     status: "True"
     type: Ready
   - lastProbeTime: null
-    lastTransitionTime: "2024-01-31T18:31:24Z"
+    lastTransitionTime: "2024-01-31T18:42:10Z"
     status: "True"
     type: ContainersReady
   - lastProbeTime: null
@@ -136,23 +136,23 @@ status:
     status: "True"
     type: PodScheduled
   containerStatuses:
-  - containerID: cri-o://f3b8c8c438d05590fece7d11e59b330eeddab20eb454c99427fc1e321af3381a
+  - containerID: cri-o://c7b9a4c0534de73ee14fa8e1fdd5b426116c8c407ce01b7e0a7b32e58d2164c6
     image: svl-artifactory.juniper.net/atom-docker/cn2/sharmag07/katafygio:y8
     imageID: e13c4676da75ab40600b02b98a430332fd816843ed8919800b504e0747fc1f07
     lastState:
       terminated:
-        containerID: cri-o://ee11950158a80c4f5f32c9043bb15344ff3e657d96feca8d93593d6892131b09
+        containerID: cri-o://f3b8c8c438d05590fece7d11e59b330eeddab20eb454c99427fc1e321af3381a
         exitCode: 1
-        finishedAt: "2024-01-31T18:31:22Z"
+        finishedAt: "2024-01-31T18:42:08Z"
         reason: Error
-        startedAt: "2024-01-31T18:20:36Z"
+        startedAt: "2024-01-31T18:31:23Z"
     name: katafygio
     ready: true
-    restartCount: 29
+    restartCount: 30
     started: true
     state:
       running:
-        startedAt: "2024-01-31T18:31:23Z"
+        startedAt: "2024-01-31T18:42:09Z"
   hostIP: 192.168.1.2
   phase: Running
   podIP: 10.244.100.228
