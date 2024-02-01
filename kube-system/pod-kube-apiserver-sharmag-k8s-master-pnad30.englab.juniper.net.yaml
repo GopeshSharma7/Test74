@@ -157,11 +157,11 @@ status:
     status: "True"
     type: Initialized
   - lastProbeTime: null
-    lastTransitionTime: "2024-01-31T00:20:08Z"
+    lastTransitionTime: "2024-02-01T11:58:32Z"
     status: "True"
     type: Ready
   - lastProbeTime: null
-    lastTransitionTime: "2024-01-31T00:20:08Z"
+    lastTransitionTime: "2024-02-01T11:58:32Z"
     status: "True"
     type: ContainersReady
   - lastProbeTime: null
