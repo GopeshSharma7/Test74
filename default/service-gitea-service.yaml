@@ -4,13 +4,13 @@ metadata:
   annotations:
     kubectl.kubernetes.io/last-applied-configuration: |
       {"apiVersion":"v1","kind":"Service","metadata":{"annotations":{},"name":"gitea-service","namespace":"default"},"spec":{"ports":[{"nodePort":30033,"port":3000,"protocol":"TCP","targetPort":3000}],"selector":{"app":"gitea"},"type":"NodePort"}}
-  creationTimestamp: "2024-01-30T10:20:44Z"
+  creationTimestamp: "2024-02-14T09:04:38Z"
   name: gitea-service
   namespace: default
 spec:
-  clusterIP: 10.10.10.224
+  clusterIP: 10.105.153.41
   clusterIPs:
-  - 10.10.10.224
+  - 10.105.153.41
   externalTrafficPolicy: Cluster
   internalTrafficPolicy: Cluster
   ipFamilies:
@@ -25,5 +25,3 @@ spec:
     app: gitea
   sessionAffinity: None
   type: NodePort
-status:
-  loadBalancer: {}
